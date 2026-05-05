@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "type": "simple",
+    "question": "Who is the CEO of OpenAI?",
+    "ground_truth": "Sam Altman is the CEO of OpenAI.",
+    "key_facts": ["Sam Altman", "OpenAI"]
+  },
+  {
+    "id": 2,
+    "type": "simple",
+    "question": "What is ChatGPT and who created it?",
+    "ground_truth": "ChatGPT is a conversational AI chatbot created by OpenAI.",
+    "key_facts": ["ChatGPT", "OpenAI", "chatbot"]
+  },
+  {
+    "id": 3,
+    "type": "simple",
+    "question": "What breakthrough did Google DeepMind achieve with AlphaFold?",
+    "ground_truth": "AlphaFold is a DeepMind AI system that predicts 3D protein structures with near-experimental accuracy, solving a 50-year grand challenge in biology.",
+    "key_facts": ["AlphaFold", "protein", "DeepMind"]
+  },
+  {
+    "id": 4,
+    "type": "simple",
+    "question": "In what year was Mistral AI founded and where is it based?",
+    "ground_truth": "Mistral AI was founded in 2023 and is based in Paris, France.",
+    "key_facts": ["2023", "Paris", "France"]
+  },
+  {
+    "id": 5,
+    "type": "simple",
+    "question": "Who owns Waymo?",
+    "ground_truth": "Waymo is owned by Alphabet Inc., the parent company of Google.",
+    "key_facts": ["Alphabet", "Google"]
+  },
+  {
+    "id": 6,
+    "type": "simple",
+    "question": "What does TSMC do and where is it based?",
+    "ground_truth": "TSMC (Taiwan Semiconductor Manufacturing Company) is the world's largest semiconductor foundry based in Taiwan, manufacturing chips for Apple, NVIDIA, and AMD.",
+    "key_facts": ["semiconductor", "Taiwan", "chips"]
+  },
+  {
+    "id": 7,
+    "type": "simple",
+    "question": "Who co-founded DeepMind before it was acquired by Google?",
+    "ground_truth": "DeepMind was co-founded by Demis Hassabis, Shane Legg, and Mustafa Suleyman in 2010.",
+    "key_facts": ["Demis Hassabis", "Mustafa Suleyman", "2010"]
+  },
+  {
+    "id": 8,
+    "type": "simple",
+    "question": "What is ByteDance's most famous product?",
+    "ground_truth": "ByteDance's most famous product is TikTok, known as Douyin in China.",
+    "key_facts": ["TikTok", "Douyin"]
+  },
+  {
+    "id": 9,
+    "type": "simple",
+    "question": "Who founded Scale AI and what does it do?",
+    "ground_truth": "Scale AI was founded by Alexandr Wang. It provides data labeling and AI infrastructure services.",
+    "key_facts": ["Alexandr Wang", "data"]
+  },
+  {
+    "id": 10,
+    "type": "simple",
+    "question": "What is Hugging Face known for?",
+    "ground_truth": "Hugging Face is known for its Transformers library and hosting open-source machine learning models and datasets.",
+    "key_facts": ["Transformers", "open-source", "models"]
+  },
+  {
+    "id": 11,
+    "type": "multi-hop",
+    "question": "John Schulman co-founded OpenAI. After leaving OpenAI, which AI safety company did he join?",
+    "ground_truth": "John Schulman co-founded OpenAI and later joined Anthropic, an AI safety company.",
+    "key_facts": ["John Schulman", "Anthropic"]
+  },
+  {
+    "id": 12,
+    "type": "multi-hop",
+    "question": "Mustafa Suleyman co-founded DeepMind, which was later acquired by Google. What company did he co-found next?",
+    "ground_truth": "After DeepMind was acquired by Google, Mustafa Suleyman co-founded Inflection AI.",
+    "key_facts": ["Mustafa Suleyman", "Inflection AI"]
+  },
+  {
+    "id": 13,
+    "type": "multi-hop",
+    "question": "Elon Musk was an early co-founder of OpenAI. What separate AI company did he later found to compete in the AI space?",
+    "ground_truth": "Elon Musk later founded xAI as his own AI company after departing from OpenAI.",
+    "key_facts": ["Elon Musk", "xAI"]
+  },
+  {
+    "id": 14,
+    "type": "multi-hop",
+    "question": "Sam Altman leads OpenAI as CEO. What are the main AI products that OpenAI has released under his leadership?",
+    "ground_truth": "Under Sam Altman's leadership, OpenAI released ChatGPT and GPT-4.",
+    "key_facts": ["Sam Altman", "ChatGPT", "GPT-4"]
+  },
+  {
+    "id": 15,
+    "type": "multi-hop",
+    "question": "Which technology companies and prominent investors have provided funding to Perplexity AI?",
+    "ground_truth": "Perplexity AI has been funded by Jeff Bezos, Nvidia, Databricks, Nat Friedman, and Tobias Lutke among others.",
+    "key_facts": ["Jeff Bezos", "Nvidia", "Databricks"]
+  },
+  {
+    "id": 16,
+    "type": "multi-hop",
+    "question": "What open-source large language models has Meta AI released under the Llama family?",
+    "ground_truth": "Meta AI has released Llama, Llama 2, Llama 3, and Llama 4 as open-source large language models.",
+    "key_facts": ["Llama", "Llama 2", "Meta AI"]
+  },
+  {
+    "id": 17,
+    "type": "multi-hop",
+    "question": "Ian Goodfellow is famous for inventing GANs and worked at Google DeepMind. Which major consumer technology company did he join after leaving Google?",
+    "ground_truth": "Ian Goodfellow joined Apple after leaving Google DeepMind.",
+    "key_facts": ["Ian Goodfellow", "Apple"]
+  },
+  {
+    "id": 18,
+    "type": "multi-hop",
+    "question": "The AI-powered search startup Neeva shut down. Which data cloud company acquired Neeva's technology and team?",
+    "ground_truth": "Snowflake Inc. acquired Neeva after it shut down its consumer search product.",
+    "key_facts": ["Neeva", "Snowflake"]
+  },
+  {
+    "id": 19,
+    "type": "multi-hop",
+    "question": "Microsoft invested heavily in OpenAI. What other AI or tech companies has Microsoft also invested in or acquired?",
+    "ground_truth": "Beyond OpenAI, Microsoft also invested in C3.ai and acquired Nuance Communications and Inflection AI.",
+    "key_facts": ["C3.ai", "Nuance", "Inflection AI"]
+  },
+  {
+    "id": 20,
+    "type": "multi-hop",
+    "question": "Andy Konwinski is a co-founder of two well-known AI companies. What are they?",
+    "ground_truth": "Andy Konwinski co-founded Databricks (a data and AI platform) and Perplexity AI (an AI search engine).",
+    "key_facts": ["Databricks", "Perplexity AI"]
+  }
+]
